@@ -2,6 +2,15 @@
   command = "npm run build"
   publish = "dist"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https://picsum.photos data:; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "clipboard-write=(self)"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

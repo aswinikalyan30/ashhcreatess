@@ -241,7 +241,7 @@ export const products = [
     fullDescription:
       'A devotional handcrafted Lippan panel with mirror highlights and a Jai Jagannath motif designed for festive and spiritual corners.',
     dimensions: '6 in x 6 in',
-    cost: '₹200',
+    cost: '₹300',
     availability: 'In Stock',
     materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
     colorOptions: 'As shown',
