@@ -1,14 +1,24 @@
 export const INSTAGRAM_PROFILE_URL = 'https://instagram.com/ashhcreatess'
 import IMG_2611 from '../assets/lippan_products/IMG_2611.jpg'
 import IMG_2612 from '../assets/lippan_products/IMG_2612.jpg'
+import IMG_2615 from '../assets/lippan_products/IMG_2615.jpeg'
+import IMG_2616 from '../assets/lippan_products/IMG_2616.jpeg'
 import IMG_2620 from '../assets/lippan_products/IMG_2620.jpg'
 import IMG_2621 from '../assets/lippan_products/IMG_2621.jpg'
+import IMG_2623 from '../assets/lippan_products/IMG_2623.jpeg'
 import IMG_2624 from '../assets/lippan_products/IMG_2624.jpg'
+import IMG_2625 from '../assets/lippan_products/IMG_2625.jpeg'
 import IMG_2626 from '../assets/lippan_products/IMG_2626.jpg'
 import IMG_2630 from '../assets/lippan_products/IMG_2630.jpg'
+import IMG_2631 from '../assets/lippan_products/IMG_2631.jpeg'
 import IMG_2634 from '../assets/lippan_products/IMG_2634.jpg'
 import IMG_2635 from '../assets/lippan_products/IMG_2635.jpg'
+import IMG_2636 from '../assets/lippan_products/IMG_2636.jpeg'
+import IMG_2637 from '../assets/lippan_products/IMG_2637.jpeg'
 import IMG_2641 from '../assets/lippan_products/IMG_2641.jpg'
+import IMG_2648 from '../assets/lippan_products/IMG_2648.jpeg'
+import IMG_2651 from '../assets/lippan_products/IMG_2651.jpeg'
+import IMG_2653 from '../assets/lippan_products/IMG_2653.jpeg'
 export const categories = [
   {
     slug: 'lippan-art',
@@ -184,7 +194,197 @@ export const products = [
       IMG_2634,
     ],
     listedAt: '2026-06-16',
-  }
+  },
+  {
+    id: 'shyaam-lippan-hexagon',
+    title: 'Shyaam',
+    category: 'lippan-art',
+    shortDescription: 'Hexagon Lippan artwork featuring Shyaam motifs',
+    fullDescription:
+      'A compact handcrafted Lippan art piece with mirror accents and a Shyaam-inspired design, ideal for small wall styling and gifting.',
+    dimensions: '3 in x 3 in',
+    cost: '₹150',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2615,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'evil-eye-lippan-circle',
+    title: 'Evil Eye',
+    category: 'lippan-art',
+    shortDescription: 'Circular Lippan artwork featuring an evil eye design',
+    fullDescription:
+      'A handcrafted circular Lippan piece with mirror work and layered detailing built around a protective evil eye motif.',
+    dimensions: '3 in x 3 in',
+    cost: '₹150',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2616,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'jai-jagannath-lippan-square',
+    title: 'Jai Jagannath',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring Jai Jagannath',
+    fullDescription:
+      'A devotional handcrafted Lippan panel with mirror highlights and a Jai Jagannath motif designed for festive and spiritual corners.',
+    dimensions: '6 in x 6 in',
+    cost: '₹200',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2623,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'linga-lippan-round',
+    title: 'Linga',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring a Linga design',
+    fullDescription:
+      'A handcrafted spiritual Lippan artwork with mirror detailing and a bold central Linga motif suitable for sacred and decorative spaces.',
+    dimensions: '3 in x 3 in',
+    cost: '₹300',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2625,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'mridul-lippan-square',
+    title: 'Mridul',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring a soft floral Mridul design',
+    fullDescription:
+      'A handcrafted floral Lippan panel with mirror accents, balanced colors, and gentle detailing made to brighten compact spaces.',
+    dimensions: '6 in x 6 in',
+    cost: '₹400',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2636,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'mayur-mahal-lippan-round',
+    title: 'Mayur Mahal',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring a peacock-inspired Mayur Mahal design',
+    fullDescription:
+      'A handcrafted Mayur Mahal Lippan piece with peacock-inspired symmetry, mirror detailing, and layered textures for statement decor.',
+    dimensions: '12 in x 12 in',
+    cost: '₹650',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2637,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'kanha-lippan-round',
+    title: 'Kanha',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring a Kanha-inspired composition',
+    fullDescription:
+      'A handcrafted Kanha-themed Lippan panel blending mirror work, bright colors, and devotional visual storytelling.',
+    dimensions: '6 in x 6 in',
+    cost: '₹300',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2648,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'lohri-lippan-round',
+    title: 'Lohri',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork inspired by a festive Lohri theme',
+    fullDescription:
+      'A festive handcrafted Lippan design with mirror highlights, warm tones, and celebratory detailing inspired by Lohri.',
+    dimensions: '6 in x 6 in',
+    cost: '₹300',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2651,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'gulaab-lippan-square',
+    title: 'Gulaab',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring a Gulaab floral motif',
+    fullDescription:
+      'A handcrafted floral Lippan piece with mirror details and a bold Gulaab-inspired centerpiece for vibrant wall decor.',
+    dimensions: '6 in x 6 in',
+    cost: '₹300',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2653,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'mooshika-vahana-lippan-round',
+    title: 'Mooshika Vahana',
+    category: 'lippan-art',
+    shortDescription: 'Lippan artwork featuring Mooshika Vahana symbolism',
+    fullDescription:
+      'A handcrafted Lippan statement piece with mirror detailing and Mooshika Vahana-inspired symbolism, made for devotional decor.',
+    dimensions: '12 in x 12 in',
+    cost: '₹700',
+    availability: 'In Stock',
+    materials: 'Clay, mirror pieces, MDF base, acrylic colors, varnish',
+    colorOptions: 'As shown',
+    customization: 'Custom color theme available',
+    shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
+    images: [
+      IMG_2631,
+    ],
+    listedAt: '2026-06-17',
+  },
 ]
 
 export function getCategoryBySlug(slug) {
