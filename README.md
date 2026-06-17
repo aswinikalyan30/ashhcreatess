@@ -21,6 +21,29 @@ npm run dev
 npm run build
 ```
 
+## Deploy to Netlify
+
+This project is preconfigured for Netlify using `netlify.toml`:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+- SPA redirect for React Router: `/* -> /index.html`
+
+### Option 1: Deploy from GitHub (recommended)
+
+1. Push this project to GitHub.
+2. In Netlify, choose **Add new site** -> **Import an existing project**.
+3. Select your GitHub repo.
+4. Netlify should auto-detect `netlify.toml`. If prompted, use:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Click **Deploy site**.
+
+### Option 2: Manual deploy
+
+1. Run `npm run build`.
+2. In Netlify, create a new site and drag-drop the `dist` folder.
+
 ## Update products
 
 All product content lives in:

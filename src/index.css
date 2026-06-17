@@ -216,7 +216,8 @@ p {
 .carousel-card img {
   width: 100%;
   height: 190px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--surface-alt);
 }
 
 .carousel-card-content {
@@ -288,7 +289,8 @@ p {
 .product-card img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--surface-alt);
 }
 
 .product-card-content {
@@ -335,8 +337,9 @@ p {
 .hero-image {
   width: 100%;
   border-radius: 16px;
-  height: 380px;
-  object-fit: cover;
+  max-height: 78vh;
+  object-fit: contain;
+  background: var(--surface-alt);
 }
 
 .thumbnail-grid {
@@ -346,10 +349,24 @@ p {
   gap: 0.5rem;
 }
 
+.thumbnail-button {
+  border: 1px solid var(--border);
+  background: transparent;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.thumbnail-button.active {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(143, 95, 60, 0.2);
+}
+
 .thumbnail-grid img {
   border-radius: 12px;
   height: 95px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--surface-alt);
 }
 
 .product-information {
