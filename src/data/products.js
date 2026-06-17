@@ -1,4 +1,10 @@
 export const INSTAGRAM_PROFILE_URL = 'https://instagram.com/ashhcreatess'
+import BOW_1 from '../assets/clay_products/bow.png'
+import BOW_2 from '../assets/clay_products/bow-2.jpeg'
+import CHILLI_1 from '../assets/clay_products/chilli.png'
+import CHILLI_2 from '../assets/clay_products/chilli2.PNG'
+import ORANGE_1 from '../assets/clay_products/orange.png'
+import ORANGE_2 from '../assets/clay_products/orange2.jpeg'
 import IMG_2611 from '../assets/lippan_products/IMG_2611.jpg'
 import IMG_2612 from '../assets/lippan_products/IMG_2612.jpg'
 import IMG_2615 from '../assets/lippan_products/IMG_2615.jpeg'
@@ -30,7 +36,7 @@ export const categories = [
     slug: 'clay-art',
     name: 'Clay Art',
     description: 'Hand-shaped clay decor and keepsakes made for warm spaces.',
-    image: 'https://picsum.photos/seed/clay-category/900/700',
+    image: BOW_1,
   },
   {
     slug: 'others',
@@ -382,6 +388,66 @@ export const products = [
     shippingNote: 'Ships in 5-7 business days. Securely packed with edge protection.',
     images: [
       IMG_2631,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'blue-bow-clay-earrings',
+    title: 'Blue Bow Earrings',
+    category: 'clay-art',
+    shortDescription: 'Handmade clay earrings with a blue bow motif.',
+    fullDescription:
+      'A lightweight handmade pair of clay earrings featuring a blue bow design, shaped and painted by hand for everyday wear or gifting.',
+    dimensions: 'Approx. 2 in drop length',
+    cost: '₹150',
+    availability: 'In Stock',
+    materials: 'Polymer clay, paint, varnish, metal hooks',
+    colorOptions: 'Blue and white',
+    customization: 'Custom colors may be available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      BOW_1,
+      BOW_2,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'orange-slice-clay-earrings',
+    title: 'Orange Slice Earrings',
+    category: 'clay-art',
+    shortDescription: 'Handmade clay earrings inspired by bright orange slices.',
+    fullDescription:
+      'A playful pair of handmade clay earrings styled like orange slices, with bold citrus tones and a cheerful finish for statement styling.',
+    dimensions: 'Approx. 2 in drop length',
+    cost: '₹200',
+    availability: 'In Stock',
+    materials: 'Polymer clay, paint, varnish, metal hooks',
+    colorOptions: 'Orange and white',
+    customization: 'Custom colors may be available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      ORANGE_1,
+      ORANGE_2,
+    ],
+    listedAt: '2026-06-17',
+  },
+  {
+    id: 'chilli-clay-earrings',
+    title: 'Chilli Earrings',
+    category: 'clay-art',
+    shortDescription: 'Handmade clay earrings shaped like bright red chillies.',
+    fullDescription:
+      'A bold pair of handcrafted clay earrings inspired by red chillies, designed as a fun statement accessory with glossy hand-painted detail.',
+    dimensions: 'Approx. 2.5 in drop length',
+    cost: '₹200',
+    availability: 'In Stock',
+    materials: 'Polymer clay, paint, varnish, metal hooks',
+    colorOptions: 'Red and green',
+    customization: 'Custom colors may be available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      CHILLI_1,
+      CHILLI_2,
     ],
     listedAt: '2026-06-17',
   },
