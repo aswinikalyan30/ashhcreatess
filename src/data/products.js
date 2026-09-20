@@ -469,7 +469,7 @@ export const products = [
     fullDescription:
       'Charming strawberry-shaped clay earrings, hand-painted with attention to detail, perfect for a playful and fruity accessory.',
     dimensions: 'Approx. 1.5 in drop length',
-    cost: '₹180',
+    cost: '₹110',
     availability: 'In Stock',
     materials: 'Air-dry clay, paint, varnish, metal hooks',
     customization: 'Custom colors are not available',
@@ -487,7 +487,7 @@ export const products = [
     fullDescription:
       'Charming watermelon-shaped clay earrings, hand-painted with attention to detail, perfect for a playful and fruity accessory.',
     dimensions: 'Approx. 1.5 in drop length',
-    cost: '₹180',
+    cost: '₹80',
     availability: 'In Stock',
     materials: 'Air-dry clay, paint, varnish, metal hooks',
     customization: 'Custom colors are not available',
