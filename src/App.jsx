@@ -28,7 +28,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/lippan-art" element={<CategoryPage categorySlug="lippan-art" />} />
           <Route path="/clay-art" element={<CategoryPage categorySlug="clay-art" />} />
-          <Route path="/others" element={<CategoryPage categorySlug="others" />} />
+          <Route path="/wire-art" element={<CategoryPage categorySlug="wire-art" />} />
           <Route path="/product/:productId" element={<ProductDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

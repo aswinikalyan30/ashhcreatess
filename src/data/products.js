@@ -25,6 +25,16 @@ import IMG_2641 from '../assets/lippan_products/IMG_2641.jpg'
 import IMG_2648 from '../assets/lippan_products/IMG_2648.jpeg'
 import IMG_2651 from '../assets/lippan_products/IMG_2651.jpeg'
 import IMG_2653 from '../assets/lippan_products/IMG_2653.jpeg'
+import BUTTERFLY from '../assets/wire_jewellery/buttterfly_blue.jpeg'
+import GREENGLOW from '../assets/wire_jewellery/glowINDark.jpeg'
+import GREENFORESTFAIRY from '../assets/wire_jewellery/green_forest_fairy.jpeg'
+import GREENSWIRL from '../assets/wire_jewellery/green_swirl.jpeg'
+import PINKSWIRL from '../assets/wire_jewellery/pink_swirl.jpeg'
+import PINKTIERED from '../assets/wire_jewellery/pink_tiiered.jpeg'
+import ROSEWHITE from '../assets/wire_jewellery/rose_white.jpeg'
+import STARWHITE from '../assets/wire_jewellery/star_white.jpeg'
+import STRAWBERRY from '../assets/wire_jewellery/strawberry.jpeg'
+import WATERMELON from '../assets/wire_jewellery/watermelon.jpeg'
 export const categories = [
   {
     slug: 'lippan-art',
@@ -33,16 +43,16 @@ export const categories = [
     image: IMG_2611,
   },
   {
+    slug: 'wire-art',
+    name: 'Wire Jewellery',
+    description: 'Wired earrings made with beads and golden craft wires',
+    image: BUTTERFLY,
+  },
+  {
     slug: 'clay-art',
     name: 'Clay Art',
     description: 'Hand-shaped clay decor and keepsakes made for warm spaces.',
     image: BOW_1,
-  },
-  {
-    slug: 'others',
-    name: 'Others',
-    description: 'Mixed handmade experiments, mini collections, and festive pieces.',
-    image: 'https://picsum.photos/seed/others-category/900/700',
   },
 ]
 
@@ -451,6 +461,187 @@ export const products = [
     ],
     listedAt: '2026-06-17',
   },
+  {
+    id: 'strawberry-earrings',
+    title: 'Strawberry Earrings',
+    category: 'clay-art',
+    shortDescription: 'Painted strawberry-shaped clay earrings.',
+    fullDescription:
+      'Charming strawberry-shaped clay earrings, hand-painted with attention to detail, perfect for a playful and fruity accessory.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹180',
+    availability: 'In Stock',
+    materials: 'Air-dry clay, paint, varnish, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      STRAWBERRY
+    ],
+    listedAt: '2026-10-17',
+  },
+    {
+    id: 'watermelon-earrings',
+    title: 'Watermelon Earrings',
+    category: 'clay-art',
+    shortDescription: 'Painted watermelon-shaped clay earrings.',
+    fullDescription:
+      'Charming watermelon-shaped clay earrings, hand-painted with attention to detail, perfect for a playful and fruity accessory.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹180',
+    availability: 'In Stock',
+    materials: 'Air-dry clay, paint, varnish, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      WATERMELON
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'butterfly-wire-earrings',
+    title: 'Butterfly Wire Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate butterfly-shaped wire earrings.',
+    fullDescription:
+      'Elegant butterfly-shaped earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹120',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      BUTTERFLY
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'glow-wire-earrings',
+    title: 'Glow IN The Dark Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate blue-green beaded earrings.',
+    fullDescription:
+      'Elegant blue-green beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit. Glows in the dark.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹110',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      GREENGLOW
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'green-forest-fairy-wire-earrings',
+    title: 'Green Forest Fairy Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate green beaded earrings.',
+    fullDescription:
+      'Elegant green beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹225',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      GREENFORESTFAIRY
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'green-swirl-wire-earrings',
+    title: 'Green Swirl Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate green beaded earrings.',
+    fullDescription:
+      'Elegant green beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹110',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      GREENSWIRL
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'pink-swirl-wire-earrings',
+    title: 'Pink Swirl Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate pink beaded earrings.',
+    fullDescription:
+      'Elegant pink beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹180',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      PINKSWIRL
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'pink-tiered-wire-earrings',
+    title: 'Pink Tiered Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate pink tiered beaded earrings.',
+    fullDescription:
+      'Elegant pink beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹180',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      PINKTIERED
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'rose-pearl-wire-earrings',
+    title: 'Rose Pearl Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate rose and pearl beaded earrings.',
+    fullDescription:
+      'Elegant rose and pearl beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹125',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      ROSEWHITE
+    ],
+    listedAt: '2026-10-17',
+  },
+  {
+    id: 'star-white-wire-earrings',
+    title: 'Star White Earrings',
+    category: 'wire-art',
+    shortDescription: 'Delicate star and pearl beaded earrings.',
+    fullDescription:
+      'Elegant star and pearl beaded earrings crafted from fine wire, perfect for adding a whimsical touch to any outfit.',
+    dimensions: 'Approx. 1.5 in drop length',
+    cost: '₹135',
+    availability: 'In Stock',
+    materials: 'Metal wire, metal hooks',
+    customization: 'Custom colors are not available',
+    shippingNote: 'Ships in 3-5 business days. Packed carefully for jewelry delivery.',
+    images: [
+      STARWHITE
+    ],
+    listedAt: '2026-10-17',
+  },
+  
 ]
 
 export function getCategoryBySlug(slug) {

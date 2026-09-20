@@ -6,7 +6,7 @@ const navItems = [
   { to: '/', label: 'Home' },
   { to: '/lippan-art', label: 'Lippan Art' },
   { to: '/clay-art', label: 'Clay Art' },
-  { to: '/others', label: 'Others' },
+  { to: '/wire-art', label: 'Wire Earrings' },
 ]
 
 export function Header() {
